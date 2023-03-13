@@ -8,6 +8,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+p{
+    line-height: 1.3;
+}
+
 /*********** BORDER PROPERTIES ************/
 
 .borderB{border: 1px solid black;}
@@ -34,7 +38,6 @@
 /*********** HELPER END ************/
 
 header{
-    width: 100%;
     padding: 1em 0;
 }
 
@@ -56,10 +59,6 @@ header{
     font-size: 14px;
 }
 
-.navDx div a .blueBtn{
-    padding: 0.5em 1.2em;
-}
-
 .navDx div a {
     margin-left: 2.5em;
     text-decoration: none;
@@ -70,6 +69,8 @@ header{
     background-color: #0061ff;
     color: white;
     border: 0;
+    padding: 0.5em 1em;
+    cursor: pointer;
 }
 
 /********************** MAIN *************************/
@@ -77,14 +78,50 @@ header{
 /******* SECTION 1 *******/
 
 .container{
-    width: 100vw;
     height: calc(100vw / 2.6);
     background-color: #b4d0e7;
     display: inline-block;
 }
 
-.boxed{
+.bigBoxed{
     width: 65vw;
     min-height: 500px;
     margin: 3em auto;
+    padding-top: 1.5em;
 }
+
+.boxedTitle > h1{
+    font-size: 50px;
+}
+
+.boxedContent{
+    width: 100%;
+    height: 325px;
+    margin-top: 2em;
+}
+
+.boxedleft{
+    width: 33%;
+    height: 325px;
+    font-size: 14px;
+}
+
+.boxedleft div a .blueBtn{
+    margin: 2em 0;
+}
+
+.boxedleft i{
+    font-size: 35px;
+    margin-top: 25%;
+}
+
+.boxedRight{
+    width: 66%;
+}
+
+.boxedRight > img{
+    width: 115%;
+    margin-left: -10px;
+}
+
+
