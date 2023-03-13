@@ -1,0 +1,31 @@
+/*********** HELPER ************/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*********** BORDER PROPERTIES ************/
+
+.borderB{border: 1px solid black;}
+.borderW{border: 1px solid white;}
+.borderR{border: 1px solid red;}
+.radius{border-radius: 5px;}
+
+/***************** WIDTH *******************/
+
+.w100{width: 100%;}
+
+/****************** FLEX *******************/
+
+.flex{display: flex;}
+.flexColumn{display: flex; flex-direction: column;}
+.spaceBtw{justify-content: space-between;}
+.spaceAround{justify-content: space-around;}
+.justifyEnd{justify-content: flex-end;}
+.justifyCenter{justify-content: center;}
+.alignCenter{align-items: center;}
+.alignStart{align-items: flex-start;}
+.alignEnd{align-items: flex-end;}
+
