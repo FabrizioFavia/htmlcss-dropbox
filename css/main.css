@@ -13,7 +13,7 @@ p{
 }
 
 h2{
-    font-size: 1.8em;
+    font-size: 2.5em;
     margin-bottom: 2em;
 }
 
@@ -76,6 +76,7 @@ header{
     border: 0;
     padding: 0.5em 1em;
     cursor: pointer;
+    font-size: 12px;
 }
 
 /********************** MAIN *************************/
@@ -83,11 +84,16 @@ header{
 
 /******* SECTION 1 *******/
 
-.container{
+.customContainer{
     max-height: calc(100vw / 2.6);
     display: inline-block;
     color: rgb(53, 53, 53);
 }
+
+.container{
+        display: inline-block;
+        color: rgb(53, 53, 53);
+    }
 
 .bigBoxed{
     width: 65vw;
@@ -110,9 +116,16 @@ header{
     color: rgb(53, 53, 53);
 }
 
-.boxedleft div a .blueBtn{
+.boxedleft div a{
+}
+
+.blueBtn{
     margin: 2em 0;
     padding: 0.6em 1em;
+    font-size: 12px;
+    background-color: #0061ff;
+    color: white;
+    cursor: pointer;
 }
 
 .boxedleft i{
@@ -144,7 +157,7 @@ div input:nth-child(2){
 
 div input{
     margin-right: 5px;
-    margin-bottom: 4em;
+    margin-bottom: 3em;
 }
 
 .columnContainer{
@@ -197,6 +210,7 @@ padding-right: 1em;
 
 .fa-check{
     color:#0061ff;
+    font-weight: bolder;
 }
 
 .businessInfo div > a{
@@ -205,11 +219,32 @@ padding-right: 1em;
     color:#0061ff;
 }
 
-.businessDescription .blueBtn{
+ .blueBtn{
+    margin: 2em 0 2em 0.3em;
+    font-size: 12px;
+    padding: 0.7em 1.8em ;
+    border: 0;
+    color: white
+}
+
+.customBlueBtn{
     width: 100%;
     margin: 2em 0 2em 0.3em;
     font-size: 12px;
-    padding: 0.8em 0 ;
+    padding: 0.7em 1.8em ;
+    background-color: #0061ff;
+    border: 0;
+    color: white;
+}
+
+#noMarginBtn{
+    width: 100%;
+    margin:0 0.3em;
+    font-size: 12px;
+    padding: 0.7em 1.8em ;
+    background-color: #0061ff;
+    border: 0;
+    color: white;
 }
 
 .shortLine{
@@ -227,3 +262,39 @@ padding-right: 1em;
     margin-bottom: 2em;
     font-weight: 600;
 }
+
+/******** WIDE SECTION ********/
+
+
+.wide{
+    width: 100%;
+    height: 200px;
+    border: 1px solid gainsboro;
+    margin-top: 3em;
+    text-align: center;
+}
+
+.wide > div:first-child{
+    color: rgb(48, 47, 47);
+    border-bottom: 1px solid gainsboro;
+    padding: 0.5em;
+}
+
+.wide .flex{
+    padding: 2em;
+}
+
+.wide h3{
+    font-size: 19px;
+}
+
+.wide span{
+    font-weight: 200;
+    margin-bottom: 3em;
+}
+
+.wideParagraph{
+}
+
+/* DEVI AGGIUSTARE IL FONT WEIGHT */
+
