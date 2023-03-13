@@ -35,14 +35,13 @@
 
 header{
     width: 100%;
-    height: 60px;
-    background-color: cadetblue;
+    padding: 1em 0;
 }
 
 .navSx{
     width: 50%;
-    height: 100%;
-    padding: 1em;
+    padding-left: 1em;
+    font-size: 14px;
 }
 
 .navSx div a{
@@ -51,8 +50,41 @@ header{
     color: black;
 }
 
-
 .navDx{
     width: 50%;
-    height: 100%;
+    padding-right: 1em;
+    font-size: 14px;
+}
+
+.navDx div a .blueBtn{
+    padding: 0.5em 1.2em;
+}
+
+.navDx div a {
+    margin-left: 2.5em;
+    text-decoration: none;
+    color: black;
+}
+
+.blueBtn{
+    background-color: #0061ff;
+    color: white;
+    border: 0;
+}
+
+/********************** MAIN *************************/
+
+/******* SECTION 1 *******/
+
+.container{
+    width: 100vw;
+    height: calc(100vw / 2.6);
+    background-color: #b4d0e7;
+    display: inline-block;
+}
+
+.boxed{
+    width: 65vw;
+    min-height: 500px;
+    margin: 3em auto;
 }
