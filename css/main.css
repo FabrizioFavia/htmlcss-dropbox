@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Open Sans', sans-serif;
 }
 
 p{
@@ -56,7 +56,7 @@ header{
 .navSx div a{
     margin-left: 2.5em;
     text-decoration: none;
-    color: black;
+    color: rgb(53, 53, 53);
 }
 
 .navDx{
@@ -68,7 +68,6 @@ header{
 .navDx div a {
     margin-left: 2.5em;
     text-decoration: none;
-    color: black;
 }
 
 .blueBtn{
@@ -87,6 +86,7 @@ header{
 .container{
     max-height: calc(100vw / 2.6);
     display: inline-block;
+    color: rgb(53, 53, 53);
 }
 
 .bigBoxed{
@@ -107,6 +107,7 @@ header{
 .boxedleft{
     width: 33%;
     font-size: 14px;
+    color: rgb(53, 53, 53);
 }
 
 .boxedleft div a .blueBtn{
@@ -117,6 +118,7 @@ header{
 .boxedleft i{
     font-size: 40px;
     margin-top: 20%;
+    color: rgb(53, 53, 53);
 }
 
 .boxedRight{
@@ -131,8 +133,8 @@ header{
 /******* SECTION 2 *******/
 
 .smallBoxed{
-    width: 55%;
-    margin: 150px auto 0;
+    width: 54%;
+    margin: 120px auto 0;
 }
 
 
@@ -152,6 +154,7 @@ div input{
 .businessColumn{
 width: calc(100% / 3 - 25px);
 border: 1px solid gainsboro;
+padding-right: 1em;
 }
 
 .customer{
@@ -164,18 +167,63 @@ border: 1px solid gainsboro;
     padding: 2em 1.2em;
 }
 
+.businessDescription h3{
+    font-size: 19px;
+}
+
+.businessDescription a , div{
+    font-size: 12px;
+
+}
+
 .businessDescription span{
     padding-bottom: 0.5em;
     display: block;
-    font-size: 14px;
 }
 
-.businessDescription .graySpan{
+.businessDescription .paymentPeriod{
   color: rgb(114, 113, 113);
   margin-bottom: 2em;
 }
 
-.businessDescription i{
-    margin-bottom: 20px;
+.businessDescription i{ 
+    margin-right: 10px;
 }
 
+.businessInfo{
+    margin-bottom: 1em;
+    font-size: 12px;
+}
+
+.fa-check{
+    color:#0061ff;
+}
+
+.businessInfo div > a{
+    font-size: 12px;
+    margin-bottom: 1em;
+    color:#0061ff;
+}
+
+.businessDescription .blueBtn{
+    width: 100%;
+    margin: 2em 0 2em 0.3em;
+    font-size: 12px;
+    padding: 0.8em 0 ;
+}
+
+.shortLine{
+    width: 20%;
+    height: 0.5px;
+    border-bottom: 1px solid gainsboro; 
+    margin: 2em 0;
+}
+
+.businessDescription p:nth-child(4){
+    font-weight: 900;
+}
+
+.includedFeature{
+    margin-bottom: 2em;
+    font-weight: 600;
+}
