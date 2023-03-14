@@ -384,25 +384,86 @@ padding-right: 1em;
     margin-bottom: 10em;
 }
 
-.bigContainer{
-    height: calc(100vw / 3);
-}
-
 .squareColumn{
     width: 30vw;
     height: 30vw;
     background-color: cadetblue;
 }
 
-.textColumn{
+.centerSquare{
     width: calc(100% - 60vw);
     height: 30vw;
     background-color: orangered;
+    overflow-y: scroll;
 }
 
 .square{
     width: 50%;
     height: 50%;
-    border: 1px solid white;
 }
 
+.squareImg{
+    width: 100%;
+    height: 100%;
+    padding: 25%;
+}
+
+.customSquareImg{
+    width: 50%;
+    height: 10%;
+    margin-top: 45%;
+    margin-left: 20%;
+}
+
+#greenBckgr{background-color: #a2d39b;}
+
+#brownBckgr{background-color: #61082b;}
+
+#redBckgr{background-color: #d5001f;}
+
+#lightblueBckgr{background-color: #b4d0e7;}
+
+#yellowBckgr{background-color: #ffd830;}
+
+#orangeBckgr{background-color: #ff1c1c;}
+
+#blueBckgr{background-color: #0d2481;}
+
+#skyColoredBckgr{background-color: #0093ce;}
+
+#grayColoredBckgr{background-color: #f5f5f5}
+
+
+.inverted{
+    filter: invert(1);
+}
+
+.padding25{
+    padding: 3%;
+}
+
+.designitLogo{
+    width: 55%;
+    margin-bottom: 1em;
+}
+
+.trialSection{
+height: 270px;
+}
+
+.trialSection .trialTitle{
+    width: 55%;
+}
+
+.trialBtn{
+    margin: 2em 0;
+    padding: 0.6em 3em;
+    font-size: 12px;
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+.trialBtn a{
+    text-decoration: none;
+    color: black;
+}
