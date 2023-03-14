@@ -352,6 +352,8 @@ padding-right: 1em;
     cursor: pointer;
 }
 
+/*************SECTION 4 ********************/
+
 .cardContainer{
     margin: 5em auto 10em auto;
 }
@@ -369,8 +371,33 @@ padding-right: 1em;
     margin-bottom: 1.5em;
 }
 
-.sectionEnd{
-    width: 40%;
+
+/*************SECTION 5 ********************/
+
+
+.titleContainer{
+    width: 60%;
+    margin-bottom: 3em;
 }
 
+.link{
+    margin-bottom: 10em;
+}
+
+.bigContainer{
+    height: calc(100vw / 3);
+}
+
+.squareColumn{
+    width: 30vw;
+    height: 30vw;
+    background-color: cadetblue;
+}
+
+.textColumn{
+    width: calc(100% - 60vw);
+    height: 30vw;
+    background-color: orangered;
+
+}
 
