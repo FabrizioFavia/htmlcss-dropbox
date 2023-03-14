@@ -70,6 +70,7 @@ header{
 .navDx div a {
     margin-left: 2.5em;
     text-decoration: none;
+    color: black;
 }
 
 .blueBtn{
@@ -254,6 +255,7 @@ padding-right: 1em;
     background-color: #0061ff;
     border: 0;
     color: white;
+    cursor: pointer;
 }
 
 #noMarginBtn{
@@ -449,6 +451,7 @@ padding-right: 1em;
 
 .trialSection{
 height: 270px;
+margin-bottom: 7em;
 }
 
 .trialSection .trialTitle{
@@ -466,4 +469,32 @@ height: 270px;
 .trialBtn a{
     text-decoration: none;
     color: black;
+}
+
+
+/************ FAQ SECTION ************/
+
+.faq{
+    margin-bottom: 7em;
+}
+
+.faq h2{
+    padding-bottom: 2em;
+    border-bottom: 1px solid gainsboro;
+}
+
+.question{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid gainsboro;
+
+}
+
+.questionParagraph{
+    width: 70%;
+}
+
+.arrow{
+    width: 30%;
+    padding-right: 1em;
 }
