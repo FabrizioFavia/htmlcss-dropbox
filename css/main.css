@@ -398,6 +398,11 @@ padding-right: 1em;
     width: calc(100% - 60vw);
     height: 30vw;
     background-color: orangered;
+}
 
+.square{
+    width: 50%;
+    height: 50%;
+    border: 1px solid white;
 }
 
