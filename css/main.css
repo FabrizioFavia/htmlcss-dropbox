@@ -106,7 +106,7 @@ header{
 
 .bigBoxed{
     max-width: 980px;
-    margin: 4em auto;
+    margin: 4em auto 0 auto;
     padding-top: 1.5em;
 }
 
@@ -530,7 +530,6 @@ display: none;
 
 footer{
     width: 100%;
-    height: 33vw;
     background-color: black;
 }
 
@@ -538,7 +537,7 @@ footer{
     width: calc(100% / 5 -5px); 
     color: white;  
     line-height: 2.5;
-    margin-right: 5px;
+    padding-bottom: 2em;
 }
 
 footer > .bigBoxed{
@@ -550,5 +549,13 @@ footer > .bigBoxed{
     font-weight: 700;
     padding-bottom: 0.5em;
 }
+
+.language .fa-solid, span{
+    color: white;
+    margin-right: 5px;
+    padding-bottom: 3em;
+}
+
+
 
 
