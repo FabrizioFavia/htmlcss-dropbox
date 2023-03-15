@@ -14,11 +14,12 @@ p{line-height: 1.3;}
 
 .font12 {font-size: 12px;}
 
+.cursor{cursor: pointer;}
+
+/************** POSITION ****************************/
+
 .asbsolute {position: absolute;}
-
 .relative {position: relative;}
-
-.bckLightblue {background-color: #b4d0e7;}
 
 /*********** PADDING / BORDER PROPERTIES ************/
 
@@ -63,6 +64,7 @@ p{line-height: 1.3;}
 #blueBckgr {background-color: #0d2481;}
 #skyColoredBckgr {background-color: #0093ce;}
 #grayColoredBckgr {background-color: #f5f5f5}
+.bckLightblue {background-color: #b4d0e7;}
 
 /*********** HELPER END ************/
 
@@ -96,11 +98,7 @@ header {
 .navDx div a {
     margin-left: 2.5em;
     text-decoration: none;
-    color: black;
-}
-
-.logo {
-    cursor: pointer;
+    color: rgb(53, 53, 53);
 }
 
 .headerBlueBtn {
@@ -108,22 +106,12 @@ header {
     color: white;
     border: 0;
     padding: 0.4em 1em;
-    cursor: pointer;
-}
-
-.jumboBtn {
-    background-color: #0061ff;
-    color: white;
-    border: 0;
-    padding: 0.4em 1em;
-    cursor: pointer;
 }
 
 .blueBtn {
     background-color: #0061ff;
     color: white;
     border: 0;
-    cursor: pointer;
 }
 
 /********************** MAIN *************************/
@@ -263,20 +251,19 @@ div {
 }
 
 .blueBtn {
-    margin: 2em 0 2em 0.3em;
+    margin: 2em 0;
     border: 0;
     color: white
 }
 
 .customBlueBtn {
-    margin: 2em 0 2em 0;
+    margin: 2em 0;
     background-color: #0061ff;
     border: 0;
     color: white;
-    cursor: pointer;
 }
 
-#noMarginBtn {
+#MarginBtn {
     margin: 0 -0.7em;
     background-color: #0061ff;
     border: 0;
@@ -302,7 +289,7 @@ div {
 /*********************** WIDE SECTION ***********************/
 
 .wide {
-    margin: 3em auto 3em auto;
+    margin: 3em auto;
 }
 
 .wide>div:first-child {
@@ -346,7 +333,6 @@ div {
 /************* SECTION 3 *******************/
 
 #sectionThree {
-
     margin: 3em auto 7em auto;
 }
 
@@ -354,10 +340,8 @@ div {
     border: 1px solid black;
     background-color: white;
     color: rgb(114, 113, 113);
-    margin: 0;
     margin-top: 2em;
     padding: 0.7em 1em;
-    cursor: pointer;
 }
 
 /*************SECTION 4 ********************/
@@ -420,7 +404,7 @@ div {
     filter: invert(1);
 }
 
-.padding25 {
+.padding3 {
     padding: 3%;
 }
 
@@ -442,7 +426,6 @@ div {
 .trialBtn {
     margin: 2em 0;
     padding: 0.6em 3em;
-    cursor: pointer;
     background-color: whitesmoke;
 }
 
@@ -540,7 +523,6 @@ footer>.bigBoxed {
     padding-left: 1.5em;
     margin-right: em;
     margin-bottom: 12px;
-    cursor: pointer;
     font-size: 12px;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -553,7 +535,6 @@ footer>.bigBoxed {
 .container input {
     position: absolute;
     opacity: 0;
-    cursor: pointer;
     height: 0;
     width: 0;
 }
@@ -566,7 +547,8 @@ footer>.bigBoxed {
     height: 15px;
     width: 15px;
     border: 1px solid lightgray;
-    border-radius: 50%;    
+    border-radius: 50%; 
+    cursor: pointer;   
 }
 
 /* When the radio button is checked, add a blue background */
