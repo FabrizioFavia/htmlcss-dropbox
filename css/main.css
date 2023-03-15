@@ -1,5 +1,4 @@
 /*********** HELPER ************/
-
 *{
     box-sizing: border-box;
     margin: 0;
@@ -9,25 +8,30 @@
     list-style-type: none;
 }
 
+html{
+    scroll-padding-top: 100px;
+}
+
 p{
     line-height: 1.3;
 }
 
+.font12{font-size: 12px;}
+
 .asbsolute{position: absolute;}
 .relative{position: relative;}
 
-
 .bckLightblue{background-color: #b4d0e7;}
 
-/*********** BORDER PROPERTIES ************/
+/*********** PADDING / BORDER PROPERTIES ************/
 
-.borderB{border: 1px solid black;}
-.borderW{border: 1px solid white;}
-.borderR{border: 1px solid red;}
-.radius{border-radius: 5px;}
+.border{border: 1px solid gainsboro}
+
+.btnPadding{padding: 0.7em 1.8em;}
 
 /***************** WIDTH *******************/
 
+.w50{width: 50%;}
 .w100{width: 100%;}
 
 /****************** FLEX *******************/
@@ -43,6 +47,18 @@ p{
 .reverse{flex-direction: row-reverse;}
 .wrap{flex-wrap: wrap;}
 
+/************ BACKGROUND COLOR  **********************/
+
+#greenBckgr{background-color: #a2d39b;}
+#brownBckgr{background-color: #61082b;}
+#redBckgr{background-color: #d5001f;}
+#lightblueBckgr{background-color: #b4d0e7;}
+#yellowBckgr{background-color: #ffd830;}
+#orangeBckgr{background-color: #ff1c1c;}
+#blueBckgr{background-color: #0d2481;}
+#skyColoredBckgr{background-color: #0093ce;}
+#grayColoredBckgr{background-color: #f5f5f5}
+
 /*********** HELPER END ************/
 
 header{
@@ -51,12 +67,14 @@ header{
     position: fixed;
     background-color: white;
     z-index: 999;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: rgb(53, 53, 53);
+    font-size: 14px;
 }
 
 .navSx{
     width: 50%;
     padding-left: 1em;
-    font-size: 14px;
 }
 
 .navSx div a{
@@ -68,7 +86,6 @@ header{
 .navDx{
     width: 50%;
     padding-right: 1em;
-    font-size: 14px;
 }
 
 .navDx div a {
@@ -77,26 +94,41 @@ header{
     color: black;
 }
 
+.logo{
+    cursor: pointer;
+}
+
+.headerBlueBtn{
+    background-color: #0061ff;
+    color: white;
+    border: 0;
+    padding: 0.4em 1em;
+    cursor: pointer;
+}
+
+.jumboBtn{
+    background-color: #0061ff;
+    color: white;
+    border: 0;
+    padding: 0.4em 1em;
+    cursor: pointer;
+}
+
 .blueBtn{
     background-color: #0061ff;
     color: white;
     border: 0;
-    padding: 0.5em 1em;
     cursor: pointer;
-    font-size: 12px;
 }
 
 /********************** MAIN *************************/
-
-
 /********************* SECTION 1 *********************/
 
 .jumbo{
     max-height: 73vh;
     display: inline-block;
     color: rgb(53, 53, 53);
-    margin: 60px 0 80px 0;
-   
+    margin: 60px 0 80px 0; 
 }
 
 .container{
@@ -122,22 +154,12 @@ header{
 
 .boxedleft{
     width: 33%;
-    font-size: 12px;
     color: rgb(53, 53, 53);
 }
 
 .boxedLeftParagraph{
     margin-top: 30px;
     padding-right: 20px;
-}
-
-.blueBtn{
-    margin: 2em 0;
-    padding: 0.6em 1em;
-    font-size: 12px;
-    background-color: #0061ff;
-    color: white;
-    cursor: pointer;
 }
 
 .boxedleft i{
@@ -151,7 +173,6 @@ header{
 }
 
 .boxedRight > img{
-    width: 100%;
     margin-left: -10px;
     margin-top: 30px;
 }
@@ -173,7 +194,6 @@ header{
     font-size: 2.5em;
 }
 
-
 div input:nth-child(2){
     margin-left: 6%;
 }
@@ -184,13 +204,8 @@ div input{
     transform: scale(1);
 }
 
-.columnContainer{
-    width: 100%;
-}
-
 .businessColumn{
 width: calc(100% / 3 - 25px);
-border: 1px solid gainsboro;
 padding-right: 1em;
 }
 
@@ -210,12 +225,12 @@ padding-right: 1em;
 
 .businessDescription a , div{
     font-size: 12px;
-
 }
 
 .businessDescription span{
     padding-bottom: 0.5em;
     display: block;
+    color: black;
 }
 
 .businessDescription .paymentPeriod{
@@ -229,7 +244,6 @@ padding-right: 1em;
 
 .businessInfo{
     margin-bottom: 1em;
-    font-size: 12px;
 }
 
 .fa-check{
@@ -245,17 +259,12 @@ padding-right: 1em;
 
  .blueBtn{
     margin: 2em 0 2em 0.3em;
-    font-size: 12px;
-    padding: 0.7em 1.8em ;
     border: 0;
     color: white
 }
 
 .customBlueBtn{
-    width: 100%;
     margin: 2em 0 2em 0.3em;
-    font-size: 12px;
-    padding: 0.7em 1.8em ;
     background-color: #0061ff;
     border: 0;
     color: white;
@@ -263,10 +272,7 @@ padding-right: 1em;
 }
 
 #noMarginBtn{
-    width: 100%;
-    margin:0 0.3em;
-    font-size: 12px;
-    padding: 0.7em 1.8em ;
+    margin:0 -0.7em;
     background-color: #0061ff;
     border: 0;
     color: white;
@@ -290,10 +296,7 @@ padding-right: 1em;
 
 /*********************** WIDE SECTION ***********************/
 
-
 .wide{
-    width: 100%;
-    border: 1px solid gainsboro;
     margin: 3em auto 3em auto;
 }
 
@@ -325,22 +328,15 @@ padding-right: 1em;
     margin-top: 3em;
 }
 
-
 .customBoxedRight{
     width: 58%;
-}
-
-.customBoxedRight > img{
-    width: 100%;
 }
 
 #partnerTitle{
     padding-top: 2.5em;
 }
 
-
 /************* SECTION 3 *******************/
-
 
 #sectionThree{
 
@@ -352,7 +348,6 @@ padding-right: 1em;
     background-color: white;
     color: rgb(114, 113, 113);
     margin:0;
-    font-size: 12px;
     margin-top: 2em;
     padding: 0.7em 1em;
     cursor: pointer;
@@ -369,17 +364,11 @@ padding-right: 1em;
     margin-bottom: 4em;
 }
 
-.cardImg{
-    width: 100%;
-}
-
 .card h2{
     margin-bottom: 1.5em;
 }
 
-
 /*************SECTION 5 ********************/
-
 
 .titleContainer{
     width: 60%;
@@ -409,7 +398,6 @@ padding-right: 1em;
 }
 
 .squareImg{
-    width: 100%;
     height: 100%;
     padding: 25%;
 }
@@ -420,25 +408,6 @@ padding-right: 1em;
     margin-top: 45%;
     margin-left: 20%;
 }
-
-#greenBckgr{background-color: #a2d39b;}
-
-#brownBckgr{background-color: #61082b;}
-
-#redBckgr{background-color: #d5001f;}
-
-#lightblueBckgr{background-color: #b4d0e7;}
-
-#yellowBckgr{background-color: #ffd830;}
-
-#orangeBckgr{background-color: #ff1c1c;}
-
-#blueBckgr{background-color: #0d2481;}
-
-#skyColoredBckgr{background-color: #0093ce;}
-
-#grayColoredBckgr{background-color: #f5f5f5}
-
 
 .inverted{
     filter: invert(1);
@@ -465,7 +434,6 @@ margin-bottom: 7em;
 .trialBtn{
     margin: 2em 0;
     padding: 0.6em 3em;
-    font-size: 12px;
     cursor: pointer;
     background-color: whitesmoke;
 }
@@ -474,7 +442,6 @@ margin-bottom: 7em;
     text-decoration: none;
     color: black;
 }
-
 
 /************ FAQ SECTION ************/
 
@@ -491,9 +458,7 @@ margin-bottom: 7em;
     padding-top: 2em;
     padding-bottom: 2em;
     border-bottom: 1px solid gainsboro;
-
 }
-
 
 .arrow{
     padding-right: 1em;
@@ -525,11 +490,9 @@ display: none;
     display: none;
 }
 
-
 /*************** FOOTER  ******************/
 
 footer{
-    width: 100%;
     background-color: black;
 }
 
@@ -556,6 +519,7 @@ footer > .bigBoxed{
     padding-bottom: 3em;
 }
 
-
-
-
+input[type="radio"] {
+    width: 1.40em;
+    height: 1.40em;
+  }
