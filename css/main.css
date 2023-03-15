@@ -1,67 +1,72 @@
 /*********** HELPER ************/
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     list-style-type: none;
-    font-family:'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     list-style-type: none;
 }
 
-html{
-    scroll-padding-top: 100px;
-}
+html {scroll-padding-top: 100px;}
 
-p{
-    line-height: 1.3;
-}
+p{line-height: 1.3;}
 
-.font12{font-size: 12px;}
+.font12 {font-size: 12px;}
 
-.asbsolute{position: absolute;}
-.relative{position: relative;}
+.asbsolute {position: absolute;}
 
-.bckLightblue{background-color: #b4d0e7;}
+.relative {position: relative;}
+
+.bckLightblue {background-color: #b4d0e7;}
 
 /*********** PADDING / BORDER PROPERTIES ************/
 
-.border{border: 1px solid gainsboro}
-
-.btnPadding{padding: 0.7em 1.8em;}
+.border {border: 1px solid gainsboro}
+.btnPadding {padding: 0.7em 1.8em;}
+.btnPaddingCustom {padding: 0.7em 0.8em;}
 
 /***************** WIDTH *******************/
 
-.w50{width: 50%;}
-.w100{width: 100%;}
+.w50 {width: 50%;}
+.w100 {width: 100%;}
 
 /****************** FLEX *******************/
 
-.flex{display: flex;}
-.flexColumn{display: flex; flex-direction: column;}
-.spaceBtw{justify-content: space-between;}
-.justifyEnd{justify-content: flex-end;}
-.justifyCenter{justify-content: center;}
-.alignCenter{align-items: center;}
-.alignStart{align-items: flex-start;}
-.alignEnd{align-items: flex-end;}
-.reverse{flex-direction: row-reverse;}
-.wrap{flex-wrap: wrap;}
+.flex {display: flex;}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.spaceBtw {justify-content: space-between;}
+.justifyEnd {justify-content: flex-end;}
+.justifyCenter {justify-content: center;}
+.alignCenter {align-items: center;}
+.alignStart {align-items: flex-start;}
+.alignEnd {align-items: flex-end;}
+.reverse {flex-direction: row-reverse;}
+.wrap {flex-wrap: wrap;}
 
 /************ BACKGROUND COLOR  **********************/
 
-#greenBckgr{background-color: #a2d39b;}
-#brownBckgr{background-color: #61082b;}
-#redBckgr{background-color: #d5001f;}
-#lightblueBckgr{background-color: #b4d0e7;}
-#yellowBckgr{background-color: #ffd830;}
-#orangeBckgr{background-color: #ff1c1c;}
-#blueBckgr{background-color: #0d2481;}
-#skyColoredBckgr{background-color: #0093ce;}
-#grayColoredBckgr{background-color: #f5f5f5}
+#greenBckg{background-color: #a2d39b;
+    border: 10px solid #d1ec;
+}
+
+#brownBckgr {background-color: #61082b;}
+#redBckgr {background-color: #d5001f;}
+#lightblueBckgr {background-color: #b4d0e7;}
+#yellowBckgr {background-color: #ffd830;}
+#orangeBckgr {background-color: #ff1c1c;}
+#blueBckgr {background-color: #0d2481;}
+#skyColoredBckgr {background-color: #0093ce;}
+#grayColoredBckgr {background-color: #f5f5f5}
 
 /*********** HELPER END ************/
 
-header{
+header {
     max-height: 60px;
     padding: 1em 0;
     position: fixed;
@@ -72,18 +77,18 @@ header{
     font-size: 14px;
 }
 
-.navSx{
+.navSx {
     width: 50%;
     padding-left: 1em;
 }
 
-.navSx div a{
+.navSx div a {
     margin-left: 2.5em;
     text-decoration: none;
     color: rgb(53, 53, 53);
 }
 
-.navDx{
+.navDx {
     width: 50%;
     padding-right: 1em;
 }
@@ -94,11 +99,11 @@ header{
     color: black;
 }
 
-.logo{
+.logo {
     cursor: pointer;
 }
 
-.headerBlueBtn{
+.headerBlueBtn {
     background-color: #0061ff;
     color: white;
     border: 0;
@@ -106,7 +111,7 @@ header{
     cursor: pointer;
 }
 
-.jumboBtn{
+.jumboBtn {
     background-color: #0061ff;
     color: white;
     border: 0;
@@ -114,7 +119,7 @@ header{
     cursor: pointer;
 }
 
-.blueBtn{
+.blueBtn {
     background-color: #0061ff;
     color: white;
     border: 0;
@@ -124,230 +129,232 @@ header{
 /********************** MAIN *************************/
 /********************* SECTION 1 *********************/
 
-.jumbo{
-    max-height: 73vh;
+.jumbo {
+    max-height: 570px;
     display: inline-block;
     color: rgb(53, 53, 53);
-    margin: 57px 0 80px 0; 
+    margin: 57px 0 80px 0;
 }
 
-.container{
-        display: inline-block;
-        color: rgb(53, 53, 53);
-    }
+.container {
+    display: inline-block;
+    color: rgb(53, 53, 53);
+}
 
-.bigBoxed{
+.bigBoxed {
     max-width: 980px;
     margin: 4em auto 0 auto;
     padding-top: 1.5em;
 }
 
-.boxedTitle > h1{
+.boxedTitle>h1 {
     font-size: 56px;
     font-weight: 900;
     color: black;
 }
 
-.boxedContent{
+.boxedContent {
     margin-top: 2em;
 }
 
-.boxedleft{
+.boxedleft {
     width: 33%;
     color: rgb(53, 53, 53);
 }
 
-.boxedLeftParagraph{
+.boxedLeftParagraph {
     margin-top: 30px;
     padding-right: 20px;
 }
 
-.boxedleft i{
+.boxedleft i {
     font-size: 38px;
     margin-top: 22%;
     color: black;
 }
 
-.boxedRight{
+.boxedRight {
     width: 66%;
 }
 
-.boxedRight > img{
+.boxedRight>img {
     margin-left: -10px;
     margin-top: 30px;
 }
 
 /********************* SECTION 2 *********************/
 
-.smallBoxed{
+.smallBoxed {
     width: 54%;
     margin: 0 auto;
-}   
+}
 
-#businessPlansTitle{
+#businessPlansTitle {
     margin-top: 2em;
     font-size: 2.5em;
     margin-bottom: 1.5em;
 }
 
-.sectionTitle{
+.sectionTitle {
     font-size: 2.5em;
 }
 
-div input:nth-child(2){
+.radioContainer {
+    margin-right: 4em;
+}
+
+div input:nth-child(2) {
     margin-left: 6%;
 }
 
-div input{
-    margin-right: 5px;
-    margin-bottom: 3em;
-    transform: scale(1);
+
+
+.businessColumn {
+    width: calc(100% / 3 - 25px);
 }
 
-.businessColumn{
-width: calc(100% / 3 - 25px);
-padding-right: 1em;
-}
-
-.customer{
+.customer {
     text-align: center;
     padding: 0.7em 0;
-    border-bottom: 1px solid gainsboro;   
+    border-bottom: 1px solid gainsboro;
 }
 
-.businessDescription{
-    padding: 2em 1.2em;
+.businessDescription {
+    padding: 2em;
 }
 
-.businessDescription h3{
+.businessDescription h3 {
     font-size: 19px;
 }
 
-.businessDescription a , div{
+.businessDescription a,
+div {
     font-size: 12px;
 }
 
-.businessDescription span{
+.businessDescription span {
     padding-bottom: 0.5em;
     display: block;
     color: black;
 }
 
-.businessDescription .paymentPeriod{
-  color: rgb(114, 113, 113);
-  margin-bottom: 2em;
+.businessDescription .paymentPeriod {
+    color: rgb(114, 113, 113);
+    margin-bottom: 2em;
 }
 
-.businessDescription i{ 
+.businessDescription i {
     margin-right: 10px;
 }
 
-.businessInfo{
+.businessInfo {
     margin-bottom: 1em;
 }
 
-.fa-check{
-    color:#0061ff;
+.fa-check {
+    color: #0061ff;
     font-weight: bolder;
 }
 
-.businessInfo div > a{
+.businessInfo div>a {
     font-size: 12px;
     margin-bottom: 1em;
-    color:#0061ff;
+    color: #0061ff;
 }
 
- .blueBtn{
+.blueBtn {
     margin: 2em 0 2em 0.3em;
     border: 0;
     color: white
 }
 
-.customBlueBtn{
-    margin: 2em 0 2em 0.3em;
+.customBlueBtn {
+    margin: 2em 0 2em 0;
     background-color: #0061ff;
     border: 0;
     color: white;
     cursor: pointer;
 }
 
-#noMarginBtn{
-    margin:0 -0.7em;
+#noMarginBtn {
+    margin: 0 -0.7em;
     background-color: #0061ff;
     border: 0;
     color: white;
 }
 
-.shortLine{
+.shortLine {
     width: 20%;
     height: 0.5px;
-    border-bottom: 1px solid gainsboro; 
+    border-bottom: 1px solid gainsboro;
     margin: 2em 0;
 }
 
-.businessDescription p:nth-child(4){
+.businessDescription p:nth-child(4) {
     font-weight: 900;
 }
 
-.includedFeature{
+.includedFeature {
     margin-bottom: 2em;
     font-weight: 600;
 }
 
 /*********************** WIDE SECTION ***********************/
 
-.wide{
+.wide {
     margin: 3em auto 3em auto;
 }
 
-.wide > div:first-child{
+.wide>div:first-child {
     color: rgb(48, 47, 47);
     border-bottom: 1px solid gainsboro;
     padding: 0.5em;
 }
 
-.wide .flex{
+.wide .flex {
     padding: 2em;
 }
 
-.wide h3{
+.wide h3 {
     font-size: 19px;
 }
 
-.wide span{
+.wide span {
     font-weight: 600;
     margin-bottom: 3em;
+    color: black;
 }
 
-.enterprise{
+.enterprise {
     width: 75%;
 }
 
-.enterpriseDescription{
-    color:  rgb(53, 53, 53);
+.enterpriseDescription {
+    color: rgb(53, 53, 53);
     margin-top: 3em;
+    padding-right: 4em;
 }
 
-.customBoxedRight{
+.customBoxedRight {
     width: 58%;
 }
 
-#partnerTitle{
+#partnerTitle {
     padding-top: 2.5em;
 }
 
 /************* SECTION 3 *******************/
 
-#sectionThree{
+#sectionThree {
 
     margin: 3em auto 7em auto;
 }
 
-.whiteBtn{
+.whiteBtn {
     border: 1px solid black;
     background-color: white;
     color: rgb(114, 113, 113);
-    margin:0;
+    margin: 0;
     margin-top: 2em;
     padding: 0.7em 1em;
     cursor: pointer;
@@ -355,136 +362,137 @@ padding-right: 1em;
 
 /*************SECTION 4 ********************/
 
-.cardContainer{
-    margin: 5em auto 10em auto;
+.cardContainer {
+    margin: 5em auto 8em auto;
 }
 
-.card{
+.card {
     width: calc(100% / 3 - 25px);
     margin-bottom: 4em;
 }
 
-.card h2{
+.card h2 {
     margin-bottom: 1.5em;
 }
 
 /*************SECTION 5 ********************/
 
-.titleContainer{
+.titleContainer {
     width: 60%;
     margin-bottom: 3em;
 }
 
-.link{
+.link {
     margin-bottom: 10em;
 }
 
-.squareColumn{
+.squareColumn {
     width: 30vw;
     height: 30vw;
     background-color: cadetblue;
 }
 
-.centerSquare{
+.centerSquare {
     width: calc(100% - 60vw);
     height: 30vw;
     background-color: orangered;
     overflow-y: scroll;
 }
 
-.square{
+.square {
     width: 50%;
     height: 50%;
 }
 
-.squareImg{
+.squareImg {
     height: 100%;
     padding: 25%;
 }
 
-.customSquareImg{
+.customSquareImg {
     width: 50%;
     height: 10%;
     margin-top: 45%;
     margin-left: 20%;
 }
 
-.inverted{
+.inverted {
     filter: invert(1);
 }
 
-.padding25{
+.padding25 {
     padding: 3%;
 }
 
-.designitLogo{
+.designitLogo {
     width: 55%;
     margin-bottom: 1em;
 }
 
-.trialSection{
-height: 270px;
-margin-bottom: 7em;
+.trialSection {
+    height: 270px;
+    margin-bottom: 7em;
 }
 
-.trialSection .trialTitle{
+.trialSection .trialTitle {
     width: 55%;
+    color: #61082b;
 }
 
-.trialBtn{
+.trialBtn {
     margin: 2em 0;
     padding: 0.6em 3em;
     cursor: pointer;
     background-color: whitesmoke;
 }
 
-.trialBtn a{
+.trialBtn a {
     text-decoration: none;
     color: black;
 }
 
 /************ FAQ SECTION ************/
 
-.faq{
+.faq {
     margin-bottom: 7em;
 }
 
-.faq h2{
+.faq h2 {
     padding-bottom: 2em;
     border-bottom: 1px solid gainsboro;
 }
 
-.question{
+.question {
     padding-top: 2em;
     padding-bottom: 2em;
     border-bottom: 1px solid gainsboro;
 }
 
-.arrow{
+.arrow {
     padding-right: 1em;
 }
 
-.hiddenParagraph{
-display: none;
-}
-
-.question:hover .hiddenParagraph{
-    display: block;
-}
-
-.question:hover .hiddenArrow{
-    display: block;
-}
-
-.question:hover .fa-angle-down{
+.hiddenParagraph {
     display: none;
 }
 
-.hiddenParagraph{
+.question:hover .hiddenParagraph {
+    display: block;
+}
+
+.question:hover .hiddenArrow {
+    display: block;
+}
+
+.question:hover .fa-angle-down {
+    display: none;
+}
+
+.hiddenParagraph {
     padding-right: 6%;
 }
 
-.hiddenArrow{
+.hiddenArrow {
     position: absolute;
     right: 12px;
     display: none;
@@ -492,34 +500,97 @@ display: none;
 
 /*************** FOOTER  ******************/
 
-footer{
+footer {
     background-color: black;
 }
 
-.footerColumn{
-    width: calc(100% / 5 -5px); 
-    color: white;  
+.footerColumn {
+    width: calc(100% / 5 -5px);
+    color: white;
     line-height: 2.5;
     padding-bottom: 2em;
 }
 
-footer > .bigBoxed{
+footer>.bigBoxed {
     padding-top: 7em;
 }
 
-.footerColumn ul > li:first-child{
+.footerColumn ul>li:first-child {
     font-size: 15px;
     font-weight: 700;
     padding-bottom: 0.5em;
 }
 
-.language .fa-solid, span{
+.language .fa-solid, .language span {
     color: white;
     margin-right: 5px;
     padding-bottom: 3em;
 }
 
-input[type="radio"] {
-    width: 1.40em;
-    height: 1.40em;
-  }
+.inputRow {
+    padding-bottom: 3em;
+}
+
+/****************** RADIO *******************/
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 1.5em;
+    margin-right: em;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 12px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding-right: 4em;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    border: 1px solid lightgray;
+    border-radius: 50%;    
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked~.checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+    top: 2.5px;
+    left: 2.5px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
