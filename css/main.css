@@ -459,13 +459,14 @@ div {
 
 .faq h2 {
     padding-bottom: 2em;
-    border-bottom: 1px solid gainsboro;
+    border-bottom: 0.5px solid black;
 }
 
 .question {
-    padding-top: 2em;
-    padding-bottom: 2em;
-    border-bottom: 1px solid gainsboro;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    border-bottom: 0.5px solid black;
+    font-weight: 600;
 }
 
 .arrow {
