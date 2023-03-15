@@ -51,8 +51,8 @@ p{line-height: 1.3;}
 
 /************ BACKGROUND COLOR  **********************/
 
-#greenBckg{background-color: #a2d39b;
-    border: 10px solid #d1ec;
+#greenBckgr{background-color: #a2d39b;
+    border: 10px solid #d1e9cd;
 }
 
 #brownBckgr {background-color: #61082b;}
@@ -425,7 +425,7 @@ div {
 }
 
 .designitLogo {
-    width: 55%;
+    width: 45%;
     margin-bottom: 1em;
 }
 
