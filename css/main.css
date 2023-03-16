@@ -462,6 +462,7 @@ div {
 
 .question:hover .hiddenParagraph {
     display: block;
+    font-weight: 200;
 }
 
 .question:hover .hiddenArrow {
